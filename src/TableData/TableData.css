@@ -1,0 +1,51 @@
+.search-bar {
+    padding-top: 50px;
+}
+
+.typesort {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    align-items: flex-end;
+}
+
+.typesort_info {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.showinfo-description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+textarea {
+    width: 30%;
+}
+
+h5 {
+    display: flex;
+}
+
+.table thead th {
+    text-align: center;
+    
+}
+
+
+.table td, .table th {
+    text-align: center;
+}
+
+.arrow {
+    display: block;
+}

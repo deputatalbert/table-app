@@ -1,0 +1,8 @@
+.container {
+    text-align: center;
+}
+
+.startbtn {
+    display: flex;
+    justify-content: center;
+}
