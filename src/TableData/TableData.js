@@ -11,7 +11,7 @@ function TableData(props) {
 //Если выделен пользователем с id = 101, то под таблицей выводим следующую информацию.
 //boxInfo функция для изменения состояния setInfo(!info), после которого показывается компонент  ShowInfo
 
-    const boxInfo = (record) => {
+    const boxInfo = (e,record) => {
         setInfo(true)
         setDataInfo(record)
     }
